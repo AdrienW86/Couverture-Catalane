@@ -3,8 +3,8 @@ import Services from "@/components/Services/Services";
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "Nettoyage Perpignan",
-  description: "Votre professionnel du nettoyage à Perpignan",
+  title: "Couverture Catalane",
+  description: "Votre couvreur professionnel de la toiture à Perpignan",
 };
 
 export default function Home() {
