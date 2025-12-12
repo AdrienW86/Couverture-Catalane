@@ -52,7 +52,7 @@ export default function page() {
         title="Nettoyage et Démoussage"
         description={description}
         slides={slides}
-        phoneNumber="0628286967"
+        phoneNumber="0662125611"
         bookingLink="/contact"
       />
     </>

@@ -47,7 +47,7 @@ export default function page() {
         title="Pose de gouttières et Zinguerie"
         description={description}
         slides={slides}
-        phoneNumber="0628286967"
+        phoneNumber="0662125611"
         bookingLink="/contact"
       />
     </>

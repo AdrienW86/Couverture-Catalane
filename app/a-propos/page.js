@@ -44,7 +44,7 @@ export default function APropos() {
         <h2>Contactez-nous</h2>
         <p>
           Vous avez une question ou souhaitez un devis ? <br />
-          Téléphone : 06 28 28 69 67 <br />
+          Téléphone : 06 62 12 56 11 <br />
           Email : contact@couverture-catalane.fr
         </p>
       </section>
