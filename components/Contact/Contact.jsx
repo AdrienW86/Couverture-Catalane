@@ -63,7 +63,7 @@ export default function ContactForm() {
       <h2 className={styles.title}>Contactez-nous</h2>
 
       <p className={styles.p}> 
-        Une question ? N'hésitez pas à nous écrire pour toute dermande. 
+       Demandez votre devis gratuit ou posez-nous vos questions. 
         Notre équipe se fera un plaisir de vous répondre dans les plus brefs délais.
       </p>
       <form onSubmit={handleSubmit} className={styles.form}>

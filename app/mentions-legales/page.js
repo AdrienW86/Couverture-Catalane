@@ -8,17 +8,17 @@ export default function MentionsLegales() {
       <section className={styles.section}>
         <h2>Éditeur du site</h2>
         <p>
-          Nom de l’entreprise : Nettoyage Perpignan<br />
-          Statut juridique : Entreprise Individuelle<br />
+          Nom de l’entreprise : Couverture Catalane<br />
+          Statut juridique : Entreprise Individuelle <br />
           Adresse : 88 chemin des charrettes, 66380 Pia<br />
           Téléphone : 06 28 28 69 67<br />
-          Email : contact@nettoyage-perpignan.fr<br />
+          Email : contact@couverture-catalane.fr<br />
           SIRET : 123 456 789 00012
         </p>
       </section>
       <section className={styles.section}>
         <h2>Directeur de la publication</h2>
-        <p>Guichard Frédéric – contact@nettoyage-perpignan.fr</p>
+        <p>Roblès Gregory – contact@couverture-catalane.fr</p>
       </section>
       <section className={styles.section}>
         <h2>Hébergement</h2>
@@ -31,13 +31,13 @@ export default function MentionsLegales() {
       <section className={styles.section}>
         <h2>Propriété intellectuelle</h2>
         <p>
-          L’ensemble des contenus présents sur ce site (textes, images, vidéos, logo, design…) est la propriété exclusive de Nettoyage Perpignan. Toute reproduction, même partielle, est interdite sans autorisation.
+          L’ensemble des contenus présents sur ce site (textes, images, vidéos, logo, design…) est la propriété exclusive de Couverture Catalane. Toute reproduction, même partielle, est interdite sans autorisation.
         </p>
       </section>
       <section className={styles.section}>
         <h2>Protection des données</h2>
         <p>
-          Les informations recueillies via le formulaire de contact sont utilisées uniquement pour répondre à vos demandes. Conformément au RGPD, vous pouvez demander la suppression de vos données à tout moment à contact@nettoyage-perpignan.fr.
+          Les informations recueillies via le formulaire de contact sont utilisées uniquement pour répondre à vos demandes. Conformément au RGPD, vous pouvez demander la suppression de vos données à tout moment à contact@couverture-catalane.fr.
         </p>
       </section>
       <section className={styles.section}>

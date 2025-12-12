@@ -10,15 +10,15 @@ export default function PolitiqueConfidentialite() {
         <h2>Collecte des informations</h2>
         <p>
           Nous collectons uniquement les informations nécessaires pour répondre à vos demandes via nos formulaires de contact. 
-          Ces informations comprennent votre nom, email, numéro de téléphone et message.
+          Ces informations comprennent votre nom, email, numéro de téléphone et description de votre projet de couverture ou toiture.
         </p>
       </section>
 
       <section className={styles.section}>
         <h2>Utilisation des données</h2>
         <p>
-          Vos données sont utilisées uniquement pour répondre à vos demandes et pour améliorer nos services. 
-          Elles ne sont jamais vendues ou partagées avec des tiers à des fins commerciales.
+          Vos données sont utilisées uniquement pour répondre à vos demandes, préparer un devis ou planifier une intervention. 
+          Elles ne sont jamais vendues ni partagées avec des tiers à des fins commerciales.
         </p>
       </section>
 
@@ -32,7 +32,7 @@ export default function PolitiqueConfidentialite() {
       <section className={styles.section}>
         <h2>Droits des utilisateurs</h2>
         <p>
-          Conformément au RGPD, vous pouvez accéder, rectifier ou supprimer vos données à tout moment en nous contactant à <a href="mailto:contact@nettoyage-perpignan.fr">contact@nettoyage-perpignan.fr</a>.
+          Conformément au RGPD, vous pouvez accéder, rectifier ou supprimer vos données à tout moment en nous contactant à <a href="mailto:contact@couverture-catalane.fr">contact@couverture-catalane.fr</a>.
         </p>
       </section>
 

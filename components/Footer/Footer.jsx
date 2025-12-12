@@ -16,7 +16,7 @@ export default function Footer() {
             width={220}
             height={220}
           />          
-          <p className={styles.p}> travaux de couverture professionnel</p>          
+          <p className={styles.p}> Travaux de couverture professionnel</p>          
         </div>
         <ul className={styles.ul}>
           <Link href="/couverture" className={styles.li}>Couverture</Link>

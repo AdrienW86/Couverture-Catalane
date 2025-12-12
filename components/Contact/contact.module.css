@@ -45,7 +45,7 @@
 }
 
 .input {
-    color: var(--primary);
+    color: black;
     padding: 10px;
     font-family: var(--inter);
     border: 1px solid var(--primary);
@@ -53,7 +53,7 @@
 }
 
 .input::placeholder {
-    color: var(--primary);
+    color: black;
 }
 
 .submit {
