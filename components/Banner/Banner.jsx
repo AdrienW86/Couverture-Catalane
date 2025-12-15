@@ -28,8 +28,12 @@ export default function Banner() {
             Des services de couverture fiables, soignés et adaptés à tous vos besoins sur Perpignan et ses environs.
             </p>
             <div className={styles.button_container}>
-                <button className={styles.btn}> Réserver </button>
-            <button className={styles.btn2}> Devis gratuit </button>
+            <a href="tel:+33662125611" className={styles.btn}>
+            Réserver
+          </a>
+          <a href="/contact" className={styles.btn2}>
+            Devis gratuit
+          </a>
             </div>
         </motion.div>
     </section>
