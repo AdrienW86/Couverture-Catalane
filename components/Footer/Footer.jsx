@@ -4,7 +4,7 @@ import Link from 'next/link'
 import styles from './footer.module.css'
 
 export default function Footer() {
-  const year = new Date().getFullYear();
+  const currentYear = new Date().toLocaleString('fr-FR', { timeZone: 'Europe/Paris', year: 'numeric' });
 
   return (
     <footer className={styles.footer}>
@@ -40,7 +40,7 @@ export default function Footer() {
       >
         Réalisé par <span className={styles.span}>  Codev </span> 
       </Link>
-      <p className={styles.credits}> © {new Date().getFullYear()} Couverture Catalane  <br></br>- Tous droits réservés -</p>     
+      <p className={styles.credits}>© {currentYear} Couverture Catalane <br /> Tous droits réservés </p>   
     </footer>
   )
 }
