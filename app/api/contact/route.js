@@ -19,7 +19,7 @@ export async function POST(req) {
 
     // 2. Envoi de l'email via l'API Resend
     const { data, error } = await resend.emails.send({
-      from: "Couverture Catalane <contact@couverture-catalane.fr>", // 💡 Remplace par "contact@couverture-catalane.fr" une fois ton domaine validé sur Resend
+      from: "Couverture Catalane <info@couverture-catalane.fr>", // 💡 Remplace par "contact@couverture-catalane.fr" une fois ton domaine validé sur Resend
       to: "contact@couverture-catalane.fr",        // Ton adresse Zoho où tu veux recevoir les leads
       replyTo: email,                              // Te permet de répondre directement au client en un clic
       subject: `🏗️ Nouvelle demande de chantier : ${name}`,
