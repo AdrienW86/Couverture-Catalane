@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-// Initialisation de Resend avec ta clé API secrète
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req) {
@@ -19,9 +18,9 @@ export async function POST(req) {
 
     // 2. Envoi de l'email via l'API Resend
     const { data, error } = await resend.emails.send({
-      from: "Couverture Catalane <info@couverture-catalane.fr>", // 💡 Remplace par "contact@couverture-catalane.fr" une fois ton domaine validé sur Resend
-      to: "contact@couverture-catalane.fr",        // Ton adresse Zoho où tu veux recevoir les leads
-      replyTo: email,                              // Te permet de répondre directement au client en un clic
+      from: process.env.EMAIL_FROM,
+      to: process.env.EMAIL_TO,
+      replyTo: email,
       subject: `🏗️ Nouvelle demande de chantier : ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; padding: 24px; border-radius: 12px;">
